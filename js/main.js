@@ -1,10 +1,10 @@
 function render() {
   let workers_div = document.querySelector("#workers");
   workers_div.innerHTML = "";
-  fetch(`https://api.waifu.im/random/`)
+  fetch(`https://api.thecatapi.com/v1/images/search`)
     .then(res => res.json())
     .then(data =>
-      data.images.forEach(item => {
+      data.forEach(item => {
         workers_div.innerHTML += `
         <div class="card m-5" style="width: 18rem;">
           <img src="${item.url}" class="card-img-top" width="300" height="300">
