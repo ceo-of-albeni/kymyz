@@ -1,0 +1,40 @@
+body {
+  background-color: antiquewhite !important;
+}
+
+#home_section {
+  background-image: url(../images/Bishkek-City-Tian-Shan-mountains-of-Kyrgyzstan.jpeg);
+  height: 700px;
+}
+
+#kumis {
+  color: rgb(201, 179, 151);
+  text-decoration: overline;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 110px;
+  text-shadow: -3px -3px rgb(131, 116, 98), 3px -3px rgb(170, 150, 125);
+}
+
+#keepsme {
+  color: rgb(255, 255, 255);
+  font-family: "Shadows Into Light", cursive;
+}
+
+#about_img {
+  border: 3px solid rgb(164, 151, 125);
+  border-radius: 50%;
+}
+
+footer {
+  background-color: rgb(170, 150, 125);
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(96, 86, 73);
+}
+
+#hymn {
+  width: 50%;
+}
